@@ -1,0 +1,36 @@
+---
+title: "Session 1"
+author: "Felipe Melo"
+format: html
+---
+
+## Reproducibility discussion
+
+Reproducibility is something very important these days.
+
+![](https://the-turing-way.netlify.app/_images/reproducibility.jpg)
+
+This figure belongs to [this site](https://the-turing-way.netlify.app/reproducible-research/reproducible-research)
+
+## Data preparation
+
+Here I am using data from Rbase to demnstrate the power of an active script
+```{r echo=TRUE, results='hide'}
+data("mtcars") # This is cars dataser=t
+mtcars
+```
+
+## Knowing the data
+
+```{r summary}
+summary(mtcars)
+```
+
+## Summarizing by graphs
+
+Checking distribution of horsepower HP
+
+```{r Histogram}
+hist(mtcars$hp)
+```
+
