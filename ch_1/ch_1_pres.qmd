@@ -1,0 +1,36 @@
+---
+title: "Chapter 1 Proposal"
+author: "Felipe Melo"
+format: revealjs
+---
+
+## Question
+
+::::{.columns}
+:::{.column width=50%}
+How to use GitHub and Rstudio for reproducibility and organization of PhD life?
+
+:::
+:::{.column width=50%}
+
+![](http://www.phdcomics.com/comics/archive/phd070618s.gif)
+
+:::
+::::
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+
